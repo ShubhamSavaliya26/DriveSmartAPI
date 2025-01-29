@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveSmartAPI", "DriveSmartAPI\DriveSmartAPI.csproj", "{0F9F14F3-BB38-4833-9F1A-2896475C9D48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{0B9B11A9-1394-4C51-B2B4-F2D748FF4CBC}"
+	ProjectSection(SolutionItems) = preProject
+		VehicleEfficiency.cs = VehicleEfficiency.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B2BA2B7C-E578-4ED7-BCC3-49A22345FED9}"
+	ProjectSection(SolutionItems) = preProject
+		EfficiencyCalculator.cs = EfficiencyCalculator.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F5971F81-2252-4ECC-A338-F46D99DF767F}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicationDbContex.cs = ApplicationDbContex.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTOs", "DTOs", "{3FF08EB0-8F70-491C-A735-47C203318F08}"
+	ProjectSection(SolutionItems) = preProject
+		EfficiencyDTO.cs = EfficiencyDTO.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{71E43379-D752-4F0A-8A78-C83EC9737303}"
+	ProjectSection(SolutionItems) = preProject
+		PostgreSQL_Database_Setup.txt = PostgreSQL_Database_Setup.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F9F14F3-BB38-4833-9F1A-2896475C9D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9F14F3-BB38-4833-9F1A-2896475C9D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9F14F3-BB38-4833-9F1A-2896475C9D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9F14F3-BB38-4833-9F1A-2896475C9D48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DC1BD74-AF7D-4405-B16D-A0DC288433DE}
+	EndGlobalSection
+EndGlobal

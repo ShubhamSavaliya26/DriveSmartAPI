@@ -1,0 +1,27 @@
+
+// Shubham Savaliya
+
+1. Make sure you have PostgreSQL installed.
+
+2. Create a database with the following SQL schema:
+
+   CREATE TABLE VehicleEfficiency (
+      Id SERIAL PRIMARY KEY,
+      Efficiency DOUBLE PRECISION NOT NULL,
+      DateTime TIMESTAMP NOT NULL,
+      VehicleId VARCHAR(255) NOT NULL
+   );
+
+
+3. Install Entity Framework Core PostgreSQL package:
+
+   dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+   dotnet add package Microsoft.EntityFrameworkCore.Design
+
+4. Running the Project using:
+
+   dotnet run
+
+5. Test the API:
+
+   Use Postman or any API testing tool to send POST requests to http://localhost:5000/api/VehicleEfficiency.
