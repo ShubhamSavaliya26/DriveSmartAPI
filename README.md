@@ -1,7 +1,7 @@
 # DriveSmartAPI
 A high-performance API built in C# with PostgreSQL to assess vehicle electrical efficiency. The API calculates vehicle efficiency over various periods and accounts for time zones. This project uses Test-Driven Development (TDD) for efficient data processing and aims to optimize performance while reducing memory usage.
 
-Features
+Key Features:
 <br>
 Calculates vehicle efficiency based on distance traveled and fuel used.
 <br>
